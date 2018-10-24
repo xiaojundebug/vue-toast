@@ -1,0 +1,40 @@
+.z-toast {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  max-width: 80%;
+  line-height: 24px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 9999;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+}
+
+.z-toast.z-toast-top {
+  top: 50px;
+  bottom: inherit;
+}
+
+.z-toast.z-toast-center {
+  top: 50%;
+  bottom: inherit;
+  margin-top: -40px;
+}
+
+.z-toast-enter-active,
+.z-toast-leave-active {
+  transition: opacity 0.3s;
+}
+.z-toast-enter,
+.z-toast-leave-to {
+  opacity: 0;
+}
