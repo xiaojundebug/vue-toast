@@ -1,18 +1,18 @@
-# vue-toast-z
+# vue-toast（已废弃）
 
 An toast plugin for Vue.js
 
 ## install
 
 ```bash
-npm install vue-toast-z --save
+npm install vue-toast --save
 ```
 
 ## usage
 
 ```js
 import Vue from "vue";
-import Toast from "vue-toast-z";
+import Toast from "vue-toast";
 
 Vue.use(Toast, {
   // 'top'|'center'|'bottom'
@@ -30,10 +30,4 @@ this.$toast("hello world!", "bottom");
 this.$toast.top("hello world!");
 this.$toast.center("hello world!");
 this.$toast.bottom("hello world!");
-```
-
-## build
-
-```bash
-npm run build
 ```
