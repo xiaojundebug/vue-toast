@@ -1,6 +1,6 @@
 # vue-toast（已废弃）
 
-An toast plugin for Vue.js
+A toast plugin for Vue.js
 
 ## install
 
